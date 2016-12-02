@@ -14,7 +14,7 @@ object RunTests : BuildType({
     }
 
     dependencies {
-        dependency(Multiformats_JavaScript_JsMultiaddr.buildTypes.Multiformats_JavaScript_JsMultiaddr_InstallDependencies) {
+        dependency(Multiformats_JavaScript_JsMultiaddr.buildTypes.InstallDependencies) {
             snapshot {
                 runOnSameAgent = true
             }

@@ -14,7 +14,7 @@ object RunTests : BuildType({
     }
 
     dependencies {
-        dependency(Multiformats_JavaScript_JsMultihashingAsync.buildTypes.Multiformats_JavaScript_JsMultihashingAsync_InstallDependencies) {
+        dependency(Multiformats_JavaScript_JsMultihashingAsync.buildTypes.InstallDependencies) {
             snapshot {
                 runOnSameAgent = true
             }

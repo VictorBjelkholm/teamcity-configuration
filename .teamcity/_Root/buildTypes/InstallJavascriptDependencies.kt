@@ -5,9 +5,9 @@ import jetbrains.buildServer.configs.kotlin.v10.buildSteps.ScriptBuildStep
 import jetbrains.buildServer.configs.kotlin.v10.buildSteps.ScriptBuildStep.*
 import jetbrains.buildServer.configs.kotlin.v10.buildSteps.script
 
-object Multiformats_JavaScript_JsMultiaddr_InstallJavascriptDependencies : Template({
+object InstallJavascriptDependencies : Template({
     uuid = "f7400eec-b0c2-44ba-84d8-20e772d8beef"
-    extId = "Multiformats_JavaScript_JsMultiaddr_InstallJavascriptDependencies"
+    extId = "InstallJavascriptDependencies"
     name = "install-javascript-dependencies"
 
     steps {

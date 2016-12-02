@@ -18,7 +18,7 @@ object Project : Project({
     vcsRoot(GitGithubComVictorBjelkholmTeamcityConfigurationGit)
 
     template(RunJavascriptTests)
-    template(Multiformats_JavaScript_JsMultiaddr_InstallJavascriptDependencies)
+    template(InstallJavascriptDependencies)
     template(Multiformats_JavaScript_JsMultiaddr_InstallNodejs6debian)
 
     features {

@@ -13,8 +13,13 @@ object Project : Project({
 
     vcsRoot(Multiformats_JavaScript_JsMultihashingAsync_HttpsGithubComMultiformatsJsMultihas)
 
-    buildType(Multiformats_JavaScript_JsMultihashingAsync_InstallDependencies)
     buildType(Multiformats_JavaScript_JsMultihashingAsync_InstallNodeJS)
+    buildType(InstallDependencies)
     buildType(RunTests)
-    buildTypesOrder = arrayListOf(Multiformats_JavaScript_JsMultihashingAsync.buildTypes.Multiformats_JavaScript_JsMultihashingAsync_InstallNodeJS, Multiformats_JavaScript_JsMultihashingAsync.buildTypes.Multiformats_JavaScript_JsMultihashingAsync_InstallDependencies, Multiformats_JavaScript_JsMultihashingAsync.buildTypes.RunTests)
+
+    buildTypesOrder = arrayListOf(
+            Multiformats_JavaScript_JsMultihashingAsync.buildTypes.Multiformats_JavaScript_JsMultihashingAsync_InstallNodeJS,
+            Multiformats_JavaScript_JsMultihashingAsync.buildTypes.InstallDependencies,
+            Multiformats_JavaScript_JsMultihashingAsync.buildTypes.RunTests
+    )
 })

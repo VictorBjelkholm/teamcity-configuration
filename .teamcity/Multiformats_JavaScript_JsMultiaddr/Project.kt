@@ -13,8 +13,13 @@ object Project : Project({
 
     vcsRoot(Multiformats_JavaScript_JsMultiaddr_HttpGithubComMultiformatsJsMultiaddrRefsHead)
 
-    buildType(Multiformats_JavaScript_JsMultiaddr_InstallDependencies)
-    buildType(RunTests)
     buildType(Multiformats_JavaScript_JsMultiaddr_InstallNodeJS)
-    buildTypesOrder = arrayListOf(Multiformats_JavaScript_JsMultiaddr.buildTypes.Multiformats_JavaScript_JsMultiaddr_InstallNodeJS, Multiformats_JavaScript_JsMultiaddr.buildTypes.Multiformats_JavaScript_JsMultiaddr_InstallDependencies, Multiformats_JavaScript_JsMultiaddr.buildTypes.RunTests)
+    buildType(InstallDependencies)
+    buildType(RunTests)
+
+    buildTypesOrder = arrayListOf(
+            Multiformats_JavaScript_JsMultiaddr.buildTypes.Multiformats_JavaScript_JsMultiaddr_InstallNodeJS,
+            Multiformats_JavaScript_JsMultiaddr.buildTypes.InstallDependencies,
+            Multiformats_JavaScript_JsMultiaddr.buildTypes.RunTests
+    )
 })
