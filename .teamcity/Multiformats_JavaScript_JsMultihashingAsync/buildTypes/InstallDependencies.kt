@@ -3,7 +3,7 @@ package Multiformats_JavaScript_JsMultihashingAsync.buildTypes
 import jetbrains.buildServer.configs.kotlin.v10.*
 
 object InstallDependencies : BuildType({
-    template(_Root.buildTypes.Multiformats_JavaScript_JsMultiaddr_InstallJavascriptDependencies)
+    template(_Root.buildTypes.InstallJavascriptDependencies)
     uuid = "33a028c8-9d93-49d1-b2bd-7b46fe9a0cc3"
     extId = "InstallDependencies"
     name = "Install Dependencies"
