@@ -5,7 +5,7 @@ import jetbrains.buildServer.configs.kotlin.v10.buildSteps.ScriptBuildStep
 import jetbrains.buildServer.configs.kotlin.v10.buildSteps.ScriptBuildStep.*
 import jetbrains.buildServer.configs.kotlin.v10.buildSteps.script
 
-object Multiformats_JavaScript_JsMultiaddr_InstallNodejs6debian : Template({
+object InstallNodejs6debian : Template({
     uuid = "c3589e09-0a1c-448a-8338-d9f7def0333d"
     extId = "Multiformats_JavaScript_JsMultiaddr_InstallNodejs6debian"
     name = "install-nodejs-6-debian"

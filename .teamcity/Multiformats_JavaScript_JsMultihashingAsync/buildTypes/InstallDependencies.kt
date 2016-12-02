@@ -14,7 +14,7 @@ object InstallDependencies : BuildType({
     }
 
     dependencies {
-        dependency(Multiformats_JavaScript_JsMultihashingAsync.buildTypes.Multiformats_JavaScript_JsMultihashingAsync_InstallNodeJS) {
+        dependency(Multiformats_JavaScript_JsMultihashingAsync.buildTypes.InstallNodeJS) {
             snapshot {
                 runOnSameAgent = true
             }

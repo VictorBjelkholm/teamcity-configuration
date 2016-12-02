@@ -19,7 +19,7 @@ object Project : Project({
 
     template(RunJavascriptTests)
     template(InstallJavascriptDependencies)
-    template(Multiformats_JavaScript_JsMultiaddr_InstallNodejs6debian)
+    template(InstallNodejs6debian)
 
     features {
         versionedSettings {

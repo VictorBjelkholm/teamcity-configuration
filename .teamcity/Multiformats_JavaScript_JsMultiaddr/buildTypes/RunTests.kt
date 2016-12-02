@@ -19,7 +19,7 @@ object RunTests : BuildType({
                 runOnSameAgent = true
             }
         }
-        dependency(Multiformats_JavaScript_JsMultiaddr.buildTypes.Multiformats_JavaScript_JsMultiaddr_InstallNodeJS) {
+        dependency(Multiformats_JavaScript_JsMultiaddr.buildTypes.InstallNodeJS) {
             snapshot {
                 runOnSameAgent = true
             }
