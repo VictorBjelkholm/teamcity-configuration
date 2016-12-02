@@ -2,8 +2,8 @@ package Multiformats_JavaScript_JsMultiaddr.buildTypes
 
 import jetbrains.buildServer.configs.kotlin.v10.*
 
-object Multiformats_JavaScript_JsMultiaddr_RunTests : BuildType({
-    template(_Root.buildTypes.Multiformats_JavaScript_JsMultiaddr_RunJavascriptTests)
+object RunTests : BuildType({
+    template(_Root.buildTypes.RunJavascriptTests)
     uuid = "82243eb5-2677-4a61-a0ea-5fef47404e93"
     extId = "Multiformats_JavaScript_JsMultiaddr_RunTests"
     name = "Run Tests"

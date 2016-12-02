@@ -2,8 +2,8 @@ package Multiformats_JavaScript_JsMultihashingAsync.buildTypes
 
 import jetbrains.buildServer.configs.kotlin.v10.*
 
-object Multiformats_JavaScript_JsMultihashingAsync_RunTests : BuildType({
-    template(_Root.buildTypes.Multiformats_JavaScript_JsMultiaddr_RunJavascriptTests)
+object RunTests : BuildType({
+    template(_Root.buildTypes.RunJavascriptTests)
     uuid = "9942bf1a-c084-495c-9829-9ac3353866c6"
     extId = "Multiformats_JavaScript_JsMultihashingAsync_RunTests"
     name = "Run Tests"

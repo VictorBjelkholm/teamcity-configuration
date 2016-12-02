@@ -5,9 +5,9 @@ import jetbrains.buildServer.configs.kotlin.v10.buildSteps.ScriptBuildStep
 import jetbrains.buildServer.configs.kotlin.v10.buildSteps.ScriptBuildStep.*
 import jetbrains.buildServer.configs.kotlin.v10.buildSteps.script
 
-object Multiformats_JavaScript_JsMultiaddr_RunJavascriptTests : Template({
+object RunJavascriptTests : Template({
     uuid = "d07ba884-4a37-46f9-8a0d-6dcae31e735f"
-    extId = "Multiformats_JavaScript_JsMultiaddr_RunJavascriptTests"
+    extId = "RunJavascriptTests"
     name = "run-javascript-tests"
 
     steps {
