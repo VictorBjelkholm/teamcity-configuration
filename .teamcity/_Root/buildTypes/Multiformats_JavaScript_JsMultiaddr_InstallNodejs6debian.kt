@@ -15,6 +15,7 @@ object Multiformats_JavaScript_JsMultiaddr_InstallNodejs6debian : Template({
             name = "Install NodeJS"
             id = "RUNNER_4"
             scriptContent = """
+                which node > /dev/null && exit 0 # exit early if node already exists
                 curl -sL https://deb.nodesource.com/setup_6.x | bash -
                 apt-get install -y nodejs
             """.trimIndent()
