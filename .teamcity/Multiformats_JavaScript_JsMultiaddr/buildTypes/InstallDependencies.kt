@@ -5,7 +5,7 @@ import jetbrains.buildServer.configs.kotlin.v10.*
 object InstallDependencies : BuildType({
     template(_Root.buildTypes.InstallJavascriptDependencies)
     uuid = "e44ea349-5900-4f03-9933-b8f9c223395d"
-    extId = "InstallDependencies"
+    extId = "Multiformats_JavaScript_JsMultiaddr_InstallDependencies"
     name = "Install Dependencies"
 
     vcs {
